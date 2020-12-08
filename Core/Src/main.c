@@ -75,6 +75,8 @@ void StartDefaultTask(void const * argument);
   */
 int main(void)
 {
+	uint8_t ucArray[10] = {0};
+	ucArray[11] = 1;
   /* USER CODE BEGIN 1 */
 //char uartbuf[100];
   /* USER CODE END 1 */
