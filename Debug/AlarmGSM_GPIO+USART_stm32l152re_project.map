@@ -4816,44 +4816,44 @@ OUTPUT(AlarmGSM_GPIO+USART_stm32l152re_project.elf elf32-littlearm)
  .debug_line    0x000000000000b10b      0x65d Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
  .debug_line    0x000000000000b768      0x751 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
 
-.debug_str      0x0000000000000000    0x92ba8
- .debug_str     0x0000000000000000    0x8bed9 Core/Src/SMSTask.o
-                                      0x8c22b (size before relaxing)
- .debug_str     0x000000000008bed9      0x144 Core/Src/freertos.o
-                                      0x8bfa9 (size before relaxing)
- .debug_str     0x000000000008c01d     0x278d Core/Src/main.o
-                                      0x8e9fa (size before relaxing)
- .debug_str     0x000000000008e7aa      0x3e9 Core/Src/stm32l1xx_hal_msp.o
-                                      0x8c972 (size before relaxing)
- .debug_str     0x000000000008eb93       0xaa Core/Src/stm32l1xx_hal_timebase_tim.o
+.debug_str      0x0000000000000000    0x92bfa
+ .debug_str     0x0000000000000000    0x8be92 Core/Src/SMSTask.o
+                                      0x8c1e4 (size before relaxing)
+ .debug_str     0x000000000008be92      0x144 Core/Src/freertos.o
+                                      0x8bf62 (size before relaxing)
+ .debug_str     0x000000000008bfd6     0x278d Core/Src/main.o
+                                      0x8e9b3 (size before relaxing)
+ .debug_str     0x000000000008e763      0x3e9 Core/Src/stm32l1xx_hal_msp.o
+                                      0x8c92b (size before relaxing)
+ .debug_str     0x000000000008eb4c      0x143 Core/Src/stm32l1xx_hal_timebase_tim.o
                                       0x84c8e (size before relaxing)
- .debug_str     0x000000000008ec3d       0xe6 Core/Src/stm32l1xx_it.o
-                                      0x8c450 (size before relaxing)
- .debug_str     0x000000000008ed23       0xd5 Core/Src/system_stm32l1xx.o
+ .debug_str     0x000000000008ec8f       0xe6 Core/Src/stm32l1xx_it.o
+                                      0x8c409 (size before relaxing)
+ .debug_str     0x000000000008ed75       0xd5 Core/Src/system_stm32l1xx.o
                                       0x84434 (size before relaxing)
- .debug_str     0x000000000008edf8       0x36 Core/Startup/startup_stm32l152retx.o
+ .debug_str     0x000000000008ee4a       0x36 Core/Startup/startup_stm32l152retx.o
                                          0xcf (size before relaxing)
- .debug_str     0x000000000008ee2e      0x2aa Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
+ .debug_str     0x000000000008ee80      0x2aa Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.o
                                       0x84ab3 (size before relaxing)
- .debug_str     0x000000000008f0d8      0x3ba Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
+ .debug_str     0x000000000008f12a      0x3ba Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.o
                                       0x84be5 (size before relaxing)
- .debug_str     0x000000000008f492      0x206 Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
+ .debug_str     0x000000000008f4e4      0x206 Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.o
                                       0x84658 (size before relaxing)
- .debug_str     0x000000000008f698      0x29d Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
+ .debug_str     0x000000000008f6ea      0x29d Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.o
                                       0x8484a (size before relaxing)
- .debug_str     0x000000000008f935      0xe0b Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.o
+ .debug_str     0x000000000008f987      0xe0b Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.o
                                       0x856db (size before relaxing)
- .debug_str     0x0000000000090740       0x7d Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim_ex.o
+ .debug_str     0x0000000000090792       0x7d Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim_ex.o
                                       0x848b2 (size before relaxing)
- .debug_str     0x00000000000907bd      0x516 Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
+ .debug_str     0x000000000009080f      0x516 Drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.o
                                       0x84c7d (size before relaxing)
- .debug_str     0x0000000000090cd3      0x247 Middlewares/Third_Party/FreeRTOS/Source/list.o
+ .debug_str     0x0000000000090d25      0x247 Middlewares/Third_Party/FreeRTOS/Source/list.o
                                        0xa522 (size before relaxing)
- .debug_str     0x0000000000090f1a     0x1346 Middlewares/Third_Party/FreeRTOS/Source/tasks.o
+ .debug_str     0x0000000000090f6c     0x1346 Middlewares/Third_Party/FreeRTOS/Source/tasks.o
                                        0xc70f (size before relaxing)
- .debug_str     0x0000000000092260      0x6ee Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .debug_str     0x00000000000922b2      0x6ee Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
                                        0x8106 (size before relaxing)
- .debug_str     0x000000000009294e      0x25a Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
+ .debug_str     0x00000000000929a0      0x25a Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o
                                        0xac45 (size before relaxing)
 
 .comment        0x0000000000000000       0x7b

@@ -50,8 +50,8 @@ AlarmGSM_GPIO+USART_stm32l152re_project.bin \
 all: AlarmGSM_GPIO+USART_stm32l152re_project.elf secondary-outputs
 
 # Tool invocations
-AlarmGSM_GPIO+USART_stm32l152re_project.elf: $(OBJS) $(USER_OBJS) C:\Users\telar\Desktop\Elektronika_Samoobrazovanue\CubeIDEprojects\AlarmGSM_GPIO+USART_stm32l152re_project\AlarmGSM_GPIO+USART_stm32l152re_project\STM32L152RETX_FLASH.ld
-	arm-none-eabi-gcc -o "AlarmGSM_GPIO+USART_stm32l152re_project.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\telar\Desktop\Elektronika_Samoobrazovanue\CubeIDEprojects\AlarmGSM_GPIO+USART_stm32l152re_project\AlarmGSM_GPIO+USART_stm32l152re_project\STM32L152RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AlarmGSM_GPIO+USART_stm32l152re_project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+AlarmGSM_GPIO+USART_stm32l152re_project.elf: $(OBJS) $(USER_OBJS) C:\Users\telar\Desktop\Elektronika_Samoobrazovanue\CubeIDEprojects\AlarmGSM\STM32L152RETX_FLASH.ld
+	arm-none-eabi-gcc -o "AlarmGSM_GPIO+USART_stm32l152re_project.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\telar\Desktop\Elektronika_Samoobrazovanue\CubeIDEprojects\AlarmGSM\STM32L152RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AlarmGSM_GPIO+USART_stm32l152re_project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

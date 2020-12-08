@@ -25,7 +25,7 @@ char uartbuf[100];
 	HAL_UART_Transmit(&huart2,(uint8_t *)uartbuf,100,400);
 
 	memset(uartbuf,'\0',100*sizeof(char));
-	HAL_UART_Transmit(&huart1,"AT+CMGS=\"0523571795\"\r\n",23,400);
+	HAL_UART_Transmit(&huart1,"AT+CMGS=\"0548385644\"\r\n",23,400);
 	HAL_UART_Receive(&huart1,(uint8_t *)uartbuf,100,400);
 	HAL_UART_Transmit(&huart2,(uint8_t *)uartbuf,100,400);
 
